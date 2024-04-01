@@ -3,11 +3,13 @@ import React from "react";
 const Response = ({ userInput }) => {
   let responseMessage;
 
-  switch (userInput) {
+  switch (userInput.toLowerCase()) {
+    case "job":
     case "jobs":
       responseMessage = "Go to the jobs section for further details.";
       break;
     case "internships":
+    case "internship":
       responseMessage = "Go to the internships section for further details.";
       break;
     default:
