@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ChatBot from "react-simple-chatbot";
 import { ThemeProvider } from "styled-components";
 import "./chatbot.css";
-import Response from "./Response";
+import PropTypes from "prop-types";
 const theme = {
   background: "#f5f8fb",
   fontFamily: "Arial, sans-serif",
@@ -21,13 +21,42 @@ const theme = {
     bottom: "20px",
   },
 };
+const Response = (props) => {
+  const { steps } = props;
+  let responseMessage;
+
+  switch (steps.informationInput.value.toLowerCase()) {
+    case "job":
+    case "jobs":
+      responseMessage = "Go to the jobs section for further details.";
+      break;
+    case "internships":
+    case "internship":
+      responseMessage = "Go to the internships section for further details.";
+      break;
+    default:
+      responseMessage = "I'm sorry, I don't have information on that topic.";
+  }
+
+  return (
+    <div>
+      <p>{responseMessage}</p>
+    </div>
+  );
+};
+Response.propTypes = {
+  steps: PropTypes.object,
+};
+Response.defaultProps = {
+  steps: undefined,
+};
 
 function Chatbot() {
-  const [userInput, setUserInput] = useState(""); // State to store user input
+  // const [userInput, setUserInput] = useState(""); // State to store user input
 
-  const handleUserInput = (input) => {
-    setUserInput(input); // Update user input state
-  };
+  // const handleUserInput = (input) => {
+  //   setUserInput(input); // Update user input state
+  // };
   const [steps, setSteps] = useState([
     {
       id: "1",
@@ -46,6 +75,13 @@ function Chatbot() {
       //waiting for the user input
       user: true,
       trigger: "3",
+      validator: (value) => {
+        if (/^[A-Za-z][A-Za-z\'\-]+([\ A-Za-z][A-Za-z\'\-]+)*/.test(value)) {
+          return true;
+        } else {
+          return "Please input alphabet characters only.";
+        }
+      },
     },
     {
       id: "3",
@@ -70,13 +106,16 @@ function Chatbot() {
       user: true,
       trigger: "informationResponse",
       validator: (value) => {
-        handleUserInput(value);
-        return true;
+        if (/^[A-Za-z][A-Za-z\'\-]+([\ A-Za-z][A-Za-z\'\-]+)*/.test(value)) {
+          return true;
+        } else {
+          return "Please input alphabet characters only.";
+        }
       },
     },
     {
       id: "informationResponse",
-      component: <Response userInput={userInput} />,
+      component: <Response />,
       asMessage: true,
       // Pass userInput as props to Response component
       trigger: "options",
@@ -107,7 +146,7 @@ function Chatbot() {
           botDelay={2000}
           botDelayOffset={1000}
           customComponents={{
-            bot: (props) => <Response {...props} userInput={userInput} />,
+            bot: (props) => <Response {...props} />,
           }}
         />
       </ThemeProvider>
