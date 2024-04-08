@@ -1,13 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import Chatbot from "./Chatbot";
+
 import reportWebVitals from "./reportWebVitals";
+import Job from "./job/Job";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <>
-    <Chatbot />
+    <Job />
   </>
 );
 

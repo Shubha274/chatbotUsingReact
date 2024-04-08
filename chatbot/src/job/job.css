@@ -1,0 +1,133 @@
+body {
+  background-color: rgb(209, 204, 204);
+}
+.templateContainer {
+  margin: 5% 0;
+}
+/* .templateContainer > .searchInput_Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.templateContainer > .searchInput_Container input {
+  width: 50%;
+  padding: 10px;
+  outline: none;
+} */
+
+.templateContainer .template_Container .template p {
+  font-size: 14px;
+}
+.templateContainer .template_Container .template:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
+}
+.templateContainer .template_Container {
+  display: grid;
+  align-items: center;
+  /* grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); */
+  grid-template-columns: repeat(auto-fill, minmax(calc(33.33% - 20px), 1fr));
+  gap: 20px;
+
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.templateContainer .template_Container .template {
+  margin: 10px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  justify-content: center; /* Align content vertically */
+  align-items: center;
+}
+.templateContainer .template_Container .template .content {
+  display: flex;
+  flex-direction: column; /* Arrange content vertically */
+  justify-content: center; /* Align content vertically */
+  align-items: center;
+  position: relative;
+  padding: 5px;
+}
+.templateContainer .template_Container .template .content p {
+  font-size: 16px;
+}
+/* .templateContainer .template_Container .template .content::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  color: linear-gradient(transparent, #f3ecec);
+} */
+
+.templateContainer .template_Container .template img {
+  display: flex;
+  height: 80px;
+  width: 40%;
+  /* height: 150px; */
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 10px 0 0;
+  margin-left: 135px;
+  padding-top: 5px;
+}
+.navbar {
+  background-color: #1877f2; /* Indigo color */
+  padding: 10px 20px;
+  height: 8vh;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+
+.job-icon {
+  font-size: 3rem;
+  margin-right: 50px;
+  padding: 5px 100px;
+}
+
+.logo-text {
+  font-size: 2rem;
+  word-spacing: 0.5em;
+}
+.search-container {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+}
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aaa;
+}
+.search-icon svg {
+  font-size: 18px;
+}
+.search-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+}
