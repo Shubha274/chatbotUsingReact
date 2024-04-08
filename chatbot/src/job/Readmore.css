@@ -1,0 +1,20 @@
+.read-more {
+  position: relative;
+}
+
+.text {
+  overflow: hidden;
+}
+
+.truncated {
+  max-height: 0px; /* Adjust height based on your requirement */
+}
+.toggle-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+
+  right: -2%;
+  bottom: -10%;
+}

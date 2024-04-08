@@ -21,21 +21,21 @@ const theme = {
     bottom: "20px",
   },
 };
-const Response = (props) => {
-  const { steps } = props;
+const Response = ({ props }) => {
+  const { input } = props;
   let responseMessage;
-
-  switch (steps.informationInput.value.toLowerCase()) {
-    case "job":
-    case "jobs":
-      responseMessage = "Go to the jobs section for further details.";
-      break;
-    case "internships":
-    case "internship":
-      responseMessage = "Go to the internships section for further details.";
-      break;
-    default:
-      responseMessage = "I'm sorry, I don't have information on that topic.";
+  let key = Math.random();
+  let res = input.informationInput.value.toLowerCase();
+  if (
+    res == "job" ||
+    res == "jobs" ||
+    res == "internships" ||
+    res == "internship"
+  ) {
+    responseMessage =
+      "Search  for the role you want in search area for further details.";
+  } else {
+    responseMessage = "I'm sorry, I don't have information on that topic.";
   }
 
   return (
@@ -45,10 +45,10 @@ const Response = (props) => {
   );
 };
 Response.propTypes = {
-  steps: PropTypes.object,
+  input: PropTypes.object,
 };
 Response.defaultProps = {
-  steps: undefined,
+  input: undefined,
 };
 
 function Chatbot() {
@@ -145,9 +145,9 @@ function Chatbot() {
           floating
           botDelay={2000}
           botDelayOffset={1000}
-          customComponents={{
-            bot: (props) => <Response {...props} />,
-          }}
+          // customComponents={{
+          //   bot: (props) => <Response {...props} />,
+          // }}
         />
       </ThemeProvider>
     </div>

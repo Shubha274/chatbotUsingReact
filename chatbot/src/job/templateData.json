@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "image": "https://media.licdn.com/dms/image/D4D0BAQE2vHSUfTBh5w/company-logo_100_100/0/1705941040790/workafy_logo?e=1720656000&v=beta&t=k7G2qhimKzZu3V7QaVxVFogUk81BaFGXAlvqs-FAGVo",
+    "title": "Web Developer",
+    "comp": "Workafy",
+    "desc": "At Workafy, we're on a mission to revolutionize the freelance marketplace by connecting global businesses with India's top freelance talent. We're looking for skilled Freelance Web Developers who are passionate about crafting dynamic, user-friendly websites and web applications. This is an incredible opportunity to work on diverse projects, showcasing your talent to a global audience, and to join a network of over 250,000 freelancers across more than 5000 skills",
+    "Qfication": "Bachelor’s degree (or equivalent) in computer science, information technology, or engineering Interest in learning new tools, languages, workflows, and philosophies Professional certification.This is an incredible opportunity to work on diverse projects, showcasing your talent to a global audience, and to join a network of over 250,000 freelancers across more than 5000 skills."
+  },
+  {
+    "id": 2,
+    "image": "https://media.licdn.com/dms/image/D4E0BAQHSTmTlHN9g8A/company-logo_100_100/0/1704177465580/techplement_logo?e=1720656000&v=beta&t=B4ysAB-d0qat-MYxSipRiKFWmPAIa1-4u0cYqBsALxI",
+    "title": "Software Developer Intern",
+    "comp": "TECHPLEMENT",
+    "desc": "TECHPLEMENT is a Software Development and Services Company with a passion for innovation. At TECHPLEMENT, software developers create programs that enrich lives. We hire people who are hungry for innovation and motivated to overcome challenges and setbacks. We’re looking for a software developer who displays enthusiastic leadership, and whose technical expertise allows them to seamlessly manage projects and prioritize deadlines.",
+    "Qfication": "Strong understanding of Computer Science, Back-End Web Development, Software Development, Programming, and Object-Oriented Programming (OOP) Knowledge of software engineering principles and practices"
+  },
+  {
+    "id": 3,
+    "image": "https://media.licdn.com/dms/image/C560BAQG4sTdDUhEoWA/company-logo_100_100/0/1658928124462/vaynerx_llc_logo?e=1720656000&v=beta&t=FBXTPLZh55qMx2YvGB41rQWewmV3tmjLanVQM-wKJvw",
+    "title": "HR Manager",
+    "comp": "VaynerX",
+    "desc": "VaynerMedia is a contemporary global creative and media agency with expertise in driving relevance for clients and delivering impactful business results. The independently-owned company was founded in 2009 by Gary Vaynerchuk, and has offices in New York, Los Angeles, Toronto, Mexico City, London, Amsterdam, Singapore, Kuala Lumpur, Bangkok, Tokyo, Sydney & India. VaynerMedia has been recognized for its work at the Cannes Lions, the Clio Awards and The Webby Awards. ",
+    "Qfication": "7-10 years of HR working experience Previous experience in a fast paced, tech start-up (ideally advertising) Previous experience with developing employee retention and engagement initiatives, in line with company culture and values Previous operational experience working with project management,finance.Enjoys innovation and change Driven to seek novel and agile solutions to challenges Knowledge and experience of using (and implementing) HR Software tools."
+  },
+  {
+    "id": 4,
+    "image": "https://media.licdn.com/dms/image/C4E0BAQGq-rvz-giAPQ/company-logo_100_100/0/1630586855676/bungeetech_logo?e=1720656000&v=beta&t=umbXtisAoo19zHzHg1kmpUnf6h7cd5Sgod6dtONmIwU",
+    "title": "Software Development Manager",
+    "comp": "Bungee Tech",
+    "desc": "Bungee Tech is investing in new product categories to help our mid-market customers convert more leads and grow revenue. This is a great opportunity for a Software Development Manager to lead the development of a new product. Please note that the location for this opportunity will be in India and will be working IST hours.",
+    "Qfication": "Bachelor's or Master's degree in Computer Science or a related field.Minimum of 8 years of software development experience.Minimum of 3 years of experience in a leadership or management role.Strong knowledge of software development methodologies and best practices.Experience with agile development methodologies."
+  },
+  {
+    "id": 5,
+    "image": "https://media.licdn.com/dms/image/D560BAQETPmZFsMDPKg/company-logo_100_100/0/1702822436314/niral_technologies_india_logo?e=1720656000&v=beta&t=I-IyXQVXJXAWccKwjErHCtGUfKT_ZRwNo77YPmBaDOE",
+    "title": "Frontend Developer Intern",
+    "comp": "AMZ Ad Scout",
+    "desc": "AMZ AD SCOUT is a premier digital advertising agency with an 8-year track record of excellence, specializing in Amazon advertising, social media ad services, and Google Ads. Our agency stands at the forefront of digital marketing, harnessing the power of the internet's most influential platforms to help businesses thrive in a competitive online landscape. ",
+    "Qfication": "As a Frontend Developer Intern at our dynamic company, your primary responsibility will involve the customization of pre-developed HTML, CSS, and JavaScript templates to align with our specific requirements. With your existing knowledge and experience in HTML and CSS, you'll play a crucial role in enhancing the visual appeal and functionality of our web projects. "
+  },
+  {
+    "id": 6,
+    "image": "https://media.licdn.com/dms/image/D4D0BAQGsGR9p4ikS5w/company-logo_100_100/0/1708946550425/tata_consultancy_services_logo?e=1720656000&v=beta&t=YzBKBHTKiDS_1W-oNf7P47unTp49I27ivTCJMW8y_lc",
+    "title": "Java Software Engineer",
+    "comp": "Tata Consultancy Services ",
+    "desc": "Tata Consultancy Services is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 55 years. Its consulting-led, cognitive powered, portfolio of business, technology and engineering services and solutions is delivered through its unique Location Independent Agile™ delivery model, recognized as a benchmark of excellence in software development. ",
+    "Qfication": "Expertise on Java Microservices, Springboot, MongoDB Angular, jBPM, Drools is a must for this role.Good-to-Have: jBPM, Drools"
+  },
+  {
+    "id": 7,
+    "image": "https://media.licdn.com/dms/image/D560BAQHbGUY90gih6A/company-logo_100_100/0/1707469082478/dr__reddys_laboratories_logo?e=1720656000&v=beta&t=gdJZnDwhZTRDCHCwGZixJ5okBxcDInsnfaTzwLs35UU",
+    "title": "Junior Product Manager",
+    "comp": "Yabx",
+    "desc": "Yabx is a global FinTech venture of Comviva aimed at simplifying financial access to the 2 Bn+ under-banked people in the emerging markets of Africa, Asia, and Latin America. We use technology and analytics to reduce the cost of delivering financial services. In doing so, we partner with leading Telecom Operators, Banks, MFI's, Credit Bureaus, Mobile Financial Providers & handset vendors. Yabx's mission is to create world-class innovative products to improve the lives of these people.",
+    "Qfication": "3-5 years of product experience, preferably in any of the following: consumer loans, personal finance, Microfinance, or consumer durable loans. Priority Sector loans Proficient with the latest methods of product discovery and development. Develop Microcredit products across Retail and Merchant customer segments.  Be the owner of the customer experience. Drive adoption and uptake. Ability to understand and develop multiple levers across customer lifecycle for Lifecycle management."
+  },
+  {
+    "id": 8,
+    "image": "https://media.licdn.com/dms/image/D560BAQFEeG6BURtpXQ/company-logo_100_100/0/1709870403863/myntra_logo?e=1720656000&v=beta&t=B44yIl2V4EB3jPYRUonaV57FPYGS8r-6GGQlvexU_Os",
+    "title": "Product Manager 3",
+    "comp": "Myntra",
+    "desc": "Myntra’s product management team builds technology products that empower our customers’ shopping experience and enables the smooth flow of products from suppliers to our customers’ doorsteps. We work on areas such as building massive-scale internet-applications, engaging user-interfaces, big-data analytics, mobile apps, workflow systems, inventory-management etc. Using technology & design every employee has the power to have an incredible impact in the life of Indian consumers.  ",
+    "Qfication": "4-6 years of total experience and relevant 1-2 years of experience as a product manager in product management experience ideally for consumer web products or e-commerce.BE from premier schools.  MBA is a plus. Ability to work with large quantities of data and business skills to leverage analytics for decision-making. Excellent verbal and written communication skills. Excellent interpersonal skills and ability to work with stakeholders. Work closely with Engineering and Business to drive the Product roadmap "
+  },
+  {
+    "id": 9,
+    "image": "https://media.licdn.com/dms/image/C560BAQEMPJh5f4BL0A/company-logo_100_100/0/1630653412719/antgroup_logo?e=1720656000&v=beta&t=-ixDSra2SMqdQ1mW-L-1jpN5taVgOLDR_bol7sKTUeo",
+    "title": "Software Engineer (Intern)",
+    "comp": "Ant Group",
+    "desc": "Ant Group aims to create the infrastructure and platform to support the digital transformation of the service industry. We strive to enable all consumers and small businesses to have equal access to financial and other services that are inclusive, green and sustainable.Work closely with Engineering and Business to drive the Product roadmap. Headquartered in Singapore, Ant International powers the future of global commerce with digital innovation for everyone and every business to thrive. ",
+    "Qfication": "4-6 years of total experience and relevant 1-2 years of experience as a product manager in product management experience ideally for consumer web products or e-commerce.BE from premier schools.  MBA is a plus. Ability to work with large quantities of data and business skills to leverage analytics for decision-making. Excellent verbal and written communication skills. Excellent interpersonal skills and ability to work with stakeholders, Degree or above in Computer Science, Software Engineering, IT, Electrical & Electronic Engineering, or other relevant fields. Basic knowledge of Java or other programming languages is preferred. "
+  }
+]
